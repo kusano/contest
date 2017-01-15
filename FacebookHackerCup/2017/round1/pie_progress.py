@@ -19,6 +19,6 @@ for t in range(T):
             for j in range(N+1):
                 if i+j<=N:
                     T[i+j] = min(T[i+j], P[j]+a)
-        for j in range(n):
+        for j in range(n+1):
             T[j] = oo
     print "Case #%s: %s" % (t+1, T[N])
